@@ -19,10 +19,10 @@ public class Driver {
             String browser = ConfigurationReader.getProperty("browser"); // for multiple browsers
 
             switch (browser){
-//                case "chrome":
-//                    WebDriverManager.chromedriver().setup();
-//                    driver = new ChromeDriver();
-//                    break;
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup(); // Set up driver
                     driver = new FirefoxDriver(); // Launch a driver

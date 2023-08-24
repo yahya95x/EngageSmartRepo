@@ -19,10 +19,8 @@ public class Challenge_Steps {
     }
 
     @After
-    public void quitDriver(){
-
+    public void tearDown(){
         driver.quit();
-
     }
 
     @Given("user navigates to {string}")

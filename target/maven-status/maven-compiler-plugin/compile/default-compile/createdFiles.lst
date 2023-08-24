@@ -1,5 +1,0 @@
-runners\Runner.class
-utils\Driver.class
-pages\HeroPage.class
-steps\Challenge_Steps.class
-utils\ConfigurationReader.class
