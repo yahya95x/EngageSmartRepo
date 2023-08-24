@@ -21,7 +21,7 @@ public class Challenge_Steps {
     @After
     public void quitDriver(){
 
-        driver.close();
+        driver.quit();
 
     }
 
